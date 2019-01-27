@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+  .collection {
+    display: grid;
+    flex-wrap: wrap;
+    margin: -5px;
+
+    &__item {
+      height: 150px;
+      max-width: calc(50% - 10px);
+      flex-basis: calc(50% - 10px);
+      margin: 5px;
+      border: 1px solid #ccc;
+    }
+  }
+}
